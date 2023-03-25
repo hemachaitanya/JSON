@@ -1,0 +1,21 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description" : "classroom act 25032023",
+    "Resources" : {
+        "Logical ID" :{
+            "Type" : "AWS::EC2::VPC",
+            "Properties" : {
+                "CidrBlock" : "192.168.0.0/16",
+                "Tags" : [
+                    {
+                         "key" : "Name",
+                        "value" : "vpc0"
+
+                    }
+                    
+                ]
+            }
+        }
+    }
+}
+
