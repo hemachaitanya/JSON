@@ -1,0 +1,14 @@
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+    "Description" : "classroom act 25032023",
+    "Resources" : {
+        "Logical ID" :{
+            "type" : "AWS::EC2::SubnetCidrBlock",
+            "Properties" : {
+                "Ipv6CidrBlock" : "",
+                "SubnetId" : ""
+            }
+        }
+           
+    }
+}
